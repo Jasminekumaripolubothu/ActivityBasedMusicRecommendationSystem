@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Recommendation</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Activity Based Music Recommendation System</h1>
+        <p><b>Select your activity:</b></p>
+        <select id="activitySelect">
+            <option value="running">Running</option>
+            <option value="reading">Reading</option>
+            <option value="studying">Studying</option>
+            <option value="working_out">Workout</option>
+            <option value="party">Partying</option>
+            <option value="relaxing">Relaxing</option>
+            <option value="driving">Driving</option>
+            <option value="cooking">Cooking</option>
+            <option value="meditating">Meditating</option>
+            <option value="cleaning">Cleaning</option>
+            <option value="traveling">Traveling</option>
+            <!-- Add other activities -->
+        </select>
+        <button onclick="getRecommendation()">Get Music</button>
+        <h2>Recommended Tracks:</h2>
+        <ul id="recommendationsList"></ul>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

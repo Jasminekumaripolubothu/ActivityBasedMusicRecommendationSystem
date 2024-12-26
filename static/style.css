@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #6200ea;
+    background-image: url('/static/OIP (1).jpg'); /* Background image */
+    background-size: cover; /* Ensure the background image covers the entire screen */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    color: #ffffff;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.945); /* Slightly transparent background for better visibility */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh; /* Limit height */
+    overflow-y: auto; /* Enable scroll if the content exceeds the container height */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0616a1;
+}
+
+p {
+    font-size: 1.6em;
+    color: #333; /* Darker text for better visibility */
+}
+
+select {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+    border-radius: 8px;
+    border: 2px solid #0616a1;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+select:focus {
+    outline: none;
+    border-color: #3700b3;
+    box-shadow: 0 0 5px rgba(55, 0, 179, 0.5);
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #0616a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 80%;
+}
+
+button:hover {
+    background-color: #0a19e4;
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    color: #333; /* Darker color for text visibility */
+}
+
+li {
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 1.6em;
+    color: #0616a1;
+}
